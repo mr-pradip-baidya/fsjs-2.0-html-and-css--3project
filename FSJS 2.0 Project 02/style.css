@@ -1,0 +1,78 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    
+    width: 100%;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+nav img{
+    width: 43%;
+}
+.line{
+    position: relative;
+    left: -195px;
+    width: 3%;
+    font-size: 247%;
+}
+
+* {
+}
+.grow-list{
+    position: relative;
+    top: 10%;
+    right: 19%;
+}
+ul .list-item{
+    margin: -40%;
+}
+.button-small{
+    background-color: #ae0cb1;
+    width: 125px;
+    padding: 6%;
+    border-radius: 6px;
+    font-size: 87%;
+}
+.background-img{
+    z-index: -4;
+    position: absolute;
+    top: 0; 
+}
+.hero-heading{
+    width: 556px;
+    position: absolute;
+    top: 171px;
+    left: 341px;
+    font-size: 66px;
+}
+.hero-description{
+    position: absolute;
+    top: 327px;
+    right: 456px;
+    font-size: 21px;
+    align-items: center;
+}
+.button-large{
+    position: absolute;
+    top: 394px;
+    left: 512px;
+    width: 211px;
+    padding: 13px;
+    background-color: #fa00ffc2;
+    border: none;
+    border-radius: 5px;
+}
